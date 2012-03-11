@@ -1,2 +1,13 @@
 This is a simple test case to show a flaw in C++ object copy behavior, used in this G+ discussion: https://plus.google.com/u/0/104959288284643103419/posts/WH4aUJEdxZt
 
+While one might expect, the code would print 
+
+A
+B
+
+it indeed ouputs
+
+A
+A
+
+
